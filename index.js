@@ -25,7 +25,7 @@ const goals = {
 function goalTemplate(goal) {
     return `
     <div class="col-sm">
-        <h5>${goal}</h5>
+        <h5><a href="https://www.beeminder.com/narthur/${goal}" target="_blank">${goal}</a></h5>
         <iframe src="https://www.beeminder.com/widget?slug=${goal}&username=narthur&countdown=true" height="245px" width="230px" frameborder="0px" ></iframe>
     </div>
     `;
