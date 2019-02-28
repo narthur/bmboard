@@ -19,6 +19,7 @@ const goals = {
     "todo": [],
     "vivo-sleep": ["health"],
     "vivo-steps": ["health"],
+    "su-uvi": ["work"]
 };
 
 function goalTemplate(goal) {
